@@ -1,7 +1,9 @@
 /* default style file, write or import your styles here */
 
-$color: green;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 body {
-    background-color: $color;
+    @apply bg-gray-200;
 }

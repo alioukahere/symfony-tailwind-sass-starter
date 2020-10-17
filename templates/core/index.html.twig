@@ -3,4 +3,22 @@
 {% block title %}{{ parent() }}{% endblock %}
 
 {% block body %}
+    <div class="mx-auto mt-16 px-4 md:w-1/2">
+        <h1 class="text-xl font-bold text-center">&#x1F389 Hello, Welcome to Symfony + Tailwind + Sass starter! &#x1F389</h1>
+
+        <p class="mt-4">
+            This project is just a Symfony project starter with
+            <a href="https://tailwindcss.com/" class="text-blue-600 underline" target="_blank">TailwindCSS</a> and
+            <a href="https://sass-lang.com/" class="text-blue-600 underline" target="_blank">Sass</a>
+            pre-configured, and if you are seeing this page, that means you installed the project and you are ready
+            to build your great app with the power of Symfony, TailwindCSS and Sass.
+            You can see this project on
+            <a href="https://github.com/alioukahere/symfony-tailwind-sass-starter" class="text-blue-600 underline" target="_blank">Github</a>.
+        </p>
+    </div>
+
+    <footer class="text-sm fixed text-center bottom-0 w-full p-2">
+        <a href="https://github.com/alioukahere/symfony-tailwind-sass-starter" class="text-blue-600 underline" target="_blank">github</a>.
+        Made with &#x1F499 by <a href="https://alioukahere.netlify.app/" class="text-blue-600 underline" target="_blank">alioukahere</a>.
+    </footer>
 {% endblock %}
